@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Poppins',span-serif;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.top {
+    margin-top: 10px;
+}
+.top a{
+    font-size: 20px;
+    color:white;
+    font-weight: 500;
+    margin: 10px;
+    border: 3px;
+ }
+ .main {
+    padding: 10px;
+    background-color: #d7caca;
+}
+.intro {
+    text-align: center;
+    margin-top: 50px;
+}
+.intro h1 {
+    display: flex;
+    font-size: 20px;
+    color: #333;
+    align-items:center;
+    justify-content:center;
+}
+.intro h2 {
+    display: flex;
+    font-size: 20px;
+    color:white;
+    align-items:center;
+    justify-content:center;
+}
+.image{
+    float: right;
+    width: 300px;
+    height: 500px;
+    border-radius: 50%;
+}
+.bio{
+    font-size: 20px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: 500px;
+}
+body{
+    font-style: italic;
+}
+.foot{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    text-decoration: none; 
+}
+.scroll{
+    height:200vh;
+}
